@@ -8,7 +8,7 @@ This project is created using Sypder as the main IDE.  The main frameworks used 
 
 ## 3. Methadology
 ### 3.1. Data Pipeline
-The picture with its labels are first loaded and preprocessed. The data is first split into train-validation set, with a ratio of of 70:30. The validation data is then divided into two portions in an 80:20 ratio to obtain test data. The validation data is then divided into validation-test of 80:20 ratio.
+The picture with its labels are first loaded and preprocessed. The data is first split into train-validation set, with a ratio of of 70:30. The validation data is then divided into two portions in an 80:20 ratio to obtain test data.
 
 ### 3.2. Model Pipeline
 The input layer is intended to receive coloured pictures with a size of 160x160 pixels. The final form will be (160,160,3).
